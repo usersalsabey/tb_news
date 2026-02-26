@@ -167,11 +167,6 @@ footer { background:var(--navy); color:var(--white); padding:0; }
                 <span>Profil</span>
             </div>
         </div>
-        <div class="hero-right">
-            <div class="hero-stat"><div class="hero-stat-num">350</div><div class="hero-stat-label">Personel</div></div>
-            <div class="hero-stat"><div class="hero-stat-num">24<span style="font-size:16px">j</span></div><div class="hero-stat-label">Siaga</div></div>
-            <div class="hero-stat"><div class="hero-stat-num">0%</div><div class="hero-stat-label">Pungli</div></div>
-        </div>
     </div>
 </section>
 
@@ -181,7 +176,7 @@ footer { background:var(--navy); color:var(--white); padding:0; }
         <div class="card-title"><span class="card-title-icon">👮</span>Sambutan Kapolres</div>
         <div class="sambutan-grid">
             <div class="kapolres-wrap">
-                <img src="{{ asset('images/kapolres.jpg') }}" class="kapolres-img" onerror="this.style.display='none'">
+                <img src="{{ asset('images/kapolres_gunungkidul.png') }}" class="kapolres-img" onerror="this.style.display='none'">
                 <div class="kapolres-name">{{ $profile['kapolres'] }}</div>
                 <div class="kapolres-title">Kapolres Gunungkidul</div>
             </div>
@@ -206,7 +201,7 @@ footer { background:var(--navy); color:var(--white); padding:0; }
     </div>
     <div class="card">
         <div class="card-title"><span class="card-title-icon">🏛️</span>Struktur Organisasi</div>
-        <img src="{{ asset('images/struktur.png') }}" class="struktur-img" onerror="this.style.background='var(--surface)'; this.style.height='200px';">
+        <img src="{{ asset('images/STRUKTUR_ORGANISASI_POLRES.png') }}" class="struktur-img" onerror="this.style.background='var(--surface)'; this.style.height='200px';">
     </div>
 </div>
 

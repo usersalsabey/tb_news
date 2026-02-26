@@ -284,10 +284,9 @@
             </div>
             <div class="footer-col">
                 <h5>Navigasi</h5>
-                <a href="{{ route('home') }}">Beranda</a>
-                <a href="{{ route('profile') }}">Profil Lembaga</a>
-                <a href="{{ route('news') }}">Tribratanews</a>
+                <a href="{{ route('profile') }}">Profil</a>
                 <a href="{{ route('information') }}">Informasi Pelayanan</a>
+                <a href="{{ route('news') }}">Tribratanews</a>
             </div>
         </div>
         <div class="footer-bottom">

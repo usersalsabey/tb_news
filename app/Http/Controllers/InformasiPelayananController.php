@@ -19,10 +19,9 @@ class InformasiPelayananController extends Controller
                 'hours' => '24 Jam'
             ],
             'aboutLinks' => [
-                ['name' => 'Tentang Polres Gunungkidul', 'url' => route('profile')],
-                ['name' => 'Visi & Misi',                'url' => route('home') . '#profil'],
-                ['name' => 'Tribratanews',               'url' => route('news')],
-                ['name' => 'Informasi Pelayanan',        'url' => route('information')],
+            ['name' => 'Profil',               'url' => route('profile')],
+            ['name' => 'Informasi Pelayanan',  'url' => route('information')],
+            ['name' => 'Tribratanews',         'url' => route('news')],
             ],
         ];
     }

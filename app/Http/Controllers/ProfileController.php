@@ -8,7 +8,7 @@ class ProfileController extends Controller
     {
         $profile = [
             'nama_instansi' => 'POLRES GUNUNGKIDUL',
-            'kapolres' => 'AKBP Contoh Nama, S.I.K.',
+            'kapolres' => 'AKBP DAMUS ASA, S.H., S.I.K., M.H.',
             'alamat' => 'Jl. Bhayangkara No.1, Wonosari, Gunungkidul',
             'telepon' => '(0274) 391110',
             'email' => 'polresgunungkidul@polri.go.id',

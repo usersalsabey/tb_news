@@ -91,10 +91,18 @@ class HomeController extends Controller
 
         // About Links
         $aboutLinks = [
-            ['name' => 'Profil Lembaga',      'url' => route('about.profile')],
-            ['name' => 'Struktur Organisasi', 'url' => route('about.structure')],
-            ['name' => 'Kebijakan Privasi',   'url' => route('about.privacy')],
-            ['name' => 'Syarat & Ketentuan',  'url' => route('about.terms')],
+            [
+                'name' => 'Profil',
+                'url' => route('profile')
+            ],
+            [
+                'name' => 'Informasi Pelayanan',
+                'url' => route('information')
+            ],
+            [
+                'name' => 'Tribratanews',
+                'url' => route('news')
+            ],
         ];
 
         return view('home', compact(

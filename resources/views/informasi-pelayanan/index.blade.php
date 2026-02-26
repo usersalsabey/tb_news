@@ -190,11 +190,7 @@
                 <span class="current">Informasi Pelayanan</span>
             </div>
         </div>
-        <div class="hero-right">
-            <div class="hero-stat"><div class="hero-stat-num">4</div><div class="hero-stat-label">Layanan</div></div>
-            <div class="hero-stat"><div class="hero-stat-num">24<span style="font-size:16px">j</span></div><div class="hero-stat-label">Online</div></div>
-            <div class="hero-stat"><div class="hero-stat-num">0%</div><div class="hero-stat-label">Pungli</div></div>
-        </div>
+
     </div>
 </section>
 
