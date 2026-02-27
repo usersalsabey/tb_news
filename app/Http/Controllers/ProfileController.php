@@ -10,7 +10,7 @@ class ProfileController extends Controller
             'nama_instansi' => 'POLRES GUNUNGKIDUL',
             'kapolres' => 'AKBP DAMUS ASA, S.H., S.I.K., M.H.',
             'alamat' => 'Jl. Bhayangkara No.1, Wonosari, Gunungkidul',
-            'telepon' => '(0274) 391110',
+            'telepon' => '0851-3375-0875',
             'email' => 'polresgunungkidul@polri.go.id',
             'jam_pelayanan' => '24 Jam',
 
@@ -44,7 +44,7 @@ class ProfileController extends Controller
             'city' => 'Gunungkidul',
             'email' => $profile['email'],
             'phone' => $profile['telepon'],
-            'hotline' => '110',
+            'hotline' => '110 (Darurat)',
             'hours' => $profile['jam_pelayanan']
         ];
 
